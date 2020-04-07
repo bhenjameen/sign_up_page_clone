@@ -1,0 +1,177 @@
+/*PiggyVest Registration Dashboard (clone) - (https://dashboard.piggyvest.com/register)
+by Benjamin Patrick EYOH */
+
+html {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/background2.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: dimgray;
+    font-size: 10.5pt;
+    text-align: center;
+}
+
+body img {
+    margin-bottom: -10px;
+    padding-top: 48px;
+    padding-bottom: -40px;
+}
+
+.label {
+    text-align: left;
+    font-size: 9pt;
+    font-weight: bold;
+    margin-left: 9.5%;
+    margin-bottom: 4px;
+    padding-top: 16px;
+}
+
+.header h2 {
+    font-size: 18pt;
+    color: rgb(10, 70, 153);
+}
+
+.header p {
+    padding-top: -10px;
+    margin-top: -30px;
+    text-align: center;
+}
+
+#form_box {
+    background-color: white;
+    line-height: 2;
+    padding-top: 19px;
+    padding-bottom: 50px;
+    margin: 50px 451px -30px 451px;
+    border-radius: 20px;
+    text-align: center;
+    border-radius: 20px 20px 20px 0;
+}
+
+input {
+    padding: 20px;
+    border-style: none;
+    background-color: rgb(233, 235, 245);
+    border-radius: 3px 3px 3px 3px;
+    width: 72%;
+}
+
+::placeholder {
+    font-size: 11pt;
+}
+
+datalist {
+    overflow: scroll;
+}
+
+#submit {
+    width: 81%;
+    border-style: none;
+    background-color: rgb(10, 70, 153);
+    border-radius: 10px 10px 10px 0;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#login {
+    margin: 10px 0 40px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+@media (max-width: 784px) {
+    html {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url(Images/background3.png);
+        background-attachment: fixed;
+        background-size: cover;
+        color: dimgray;
+        font-size: 10.5pt;
+        text-align: center;
+    }
+    body img {
+        padding-bottom: 50px;
+    }
+    .label {
+        text-align: left;
+        font-size: 9pt;
+        font-weight: bold;
+        margin-left: 32px;
+        padding-top: 18px;
+    }
+    .header h2 {
+        font-size: 16pt;
+        color: rgb(10, 76, 168);
+        margin-bottom: -7px;
+        margin-top: 0;
+    }
+    .header p {
+        padding-top: 0;
+        margin: 0 30px 10px 30px;
+        text-align: center;
+        line-height: normal;
+    }
+    #form_box {
+        background-color: white;
+        line-height: 2;
+        padding-bottom: 40px;
+        margin: 0 14px -8px 15px;
+        border-radius: 20px;
+        text-align: center;
+        border-radius: 20px 20px 20px 0;
+    }
+    input {
+        padding: 15px;
+        border-style: none;
+        background-color: rgb(233, 235, 245);
+        border-radius: 3px 3px 3px 3px;
+        width: 72%;
+    }
+     ::placeholder {
+        font-size: 11pt;
+    }
+    datalist {
+        overflow: scroll;
+    }
+    #submit {
+        width: 81%;
+        border-style: none;
+        background-color: rgb(10, 70, 153);
+        border-radius: 10px 10px 10px 0;
+        color: white;
+        font-weight: bolder;
+        cursor: pointer;
+    }
+    #login {
+        margin: 0;
+        padding: 0 0 50px 0;
+        text-align: center;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 12px;
+    }
+}

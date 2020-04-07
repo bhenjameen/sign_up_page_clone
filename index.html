@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="author" content="Benjamin Patrick EYOH (Bhenjameen)">
+    <meta name="description" content="PiggyVest Registration Dashboard (clone) - (https://dashboard.piggyvest.com/register)
+    by Benjamin Patrick EYOH" />
+    <title>PiggyVest | Dashboard - by Bhenjameen</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <a href="#">
+        <img src="images/piggyvest-logo.0b78a8fa.svg" alt="PiggyVest Icon" class="icon">
+    </a>
+
+    <div id="form_box">
+        <div class="header">
+            <h2>Create a Secure Account</h2>
+            <p>
+                Welcome to the future of Savings & Investment
+            </p>
+        </div>
+        <form id="form" action="">
+            <p class="label">Full Name</p>
+            <input type="text" name="fullname" placeholder="Full Name" id="fullname"><br />
+            <p class="label">Email Address</p>
+            <input type="text" name="email" placeholder="Email Address" id="email"><br />
+            <p class="label">Phone Number</p>
+            <input type="text" name="number" placeholder="Phone Number" id="number"><br />
+            <p class="label">Password</p>
+            <input type="text" name="password" placeholder="Password" id="password"><br />
+            <p class="label">Referrer Phone or Promo Code</p>
+            <input type="text" name="referral" placeholder="Referral Phone or Code" id="referral"><br />
+            <p class="label">How did You Hear About Us? (Optional)</p>
+            <form>
+                <input list="ref_con" name="ref_con" placeholder="Click To Select">
+                <datalist id="ref_con">
+                  <option value=" Click To Select">
+                    <option value=" Facebook">
+                      <option value=" Twitter">
+                        <opti on value=" Instagram">
+                          <option value=" Friends/Family/Coworkers Referrals">
+                            <option value=" Google Search">
+                              <option value=" Google Playstore">
+                                <option value=" Online Blogs">
+                                  <option value=" At an Event">
+                                    <option value=" Others">
+                                      </datalist>
+                <br/>
+                <br />
+                <input id="submit" type="submit" name="submit" value="CREATE ACCOUNT">
+            </form>
+        </form>
+    </div>
+    <br/><br/>
+    <p id="login">
+        <a href="#">Already have an account? Log In</a>
+    </p>
